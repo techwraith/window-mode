@@ -43,32 +43,31 @@
      */
     this.check = function (name) {
 
-      var $window = $(window);
       for(var i in this.modes) {
         var mode = this.modes[i];
         var condition = mode.condition;
         var test;
         switch (condition) {
           case '<':
-            test = ($window.width() < i);
+            test = (window.innerWidth < i);
             break;
           case '>':
-            test = ($window.width() > i);
+            test = (window.innerWidth > i);
             break;
           case '<=':
-            test = ($window.width() <= i);
+            test = (window.innerWidth <= i);
             break;
           case '>=':
-            test = ($window.width() >= i);
+            test = (window.innerWidth >= i);
             break;
           case '==':
-            test = ($window.width() == i);
+            test = (window.innerWidth == i);
             break;
           case '===':
-            test = ($window.width() === i);
+            test = (window.innerWidth === i);
             break;
           default:
-            test = ($window.width() >= i);
+            test = (window.innerWidth >= i);
         }
 
         if (test) {
