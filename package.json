@@ -1,6 +1,6 @@
 {
   "name": "window-mode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A small utility to define and check different responsive \"modes\" for the current window - e.g. \"desktop\", \"tablet\", or \"mobile\"",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,5 @@
   "author": "techwraith",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "916d9c8ba9e308fb858cbec24dca21aeb7a3f5c9"
+  "gitHead": "bb2653d1ccac3dd5f939ea19aa6e361a1ea37c4d"
 }
