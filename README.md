@@ -34,6 +34,8 @@ var windowMode = require('window-mode');
 
 ### Install
 
+Make sure that you have `$` assigned to something jQuery-like.
+
 Installing via npm is easy:
 
 ```
