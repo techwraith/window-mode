@@ -98,7 +98,7 @@
 
   // if we've got a window and we don't have a module
   // create a global;
-  if (window && !module) {
+  if (window && (typeof module == 'undefined')) {
     window.windowMode = wm;
   }
   // otherwise, export it.
