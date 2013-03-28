@@ -238,7 +238,7 @@ footer {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding:40px 15px;
   }
   
   header ul {
@@ -253,3 +253,17 @@ footer {
     color:#444;
   }
 }
+.demo {
+  background: #fcf8e3;
+  border-bottom: 1px solid #fbeed5;
+  color: #c09853;
+  padding: 8px 35px 8px 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+  .demo span {
+    font-weight: bold;
+  }
