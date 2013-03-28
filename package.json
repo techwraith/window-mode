@@ -12,7 +12,6 @@
   },
   "keywords": [
     "browserify",
-    "jquery",
     "responsive",
     "window",
     "media query"
