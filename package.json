@@ -1,6 +1,6 @@
 {
   "name": "window-mode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small utility to define and check different responsive \"modes\" for the current window - e.g. \"desktop\", \"tablet\", or \"mobile\"",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,7 @@
     "jquery",
     "responsive",
     "window",
-    "media",
-    "query"
+    "media query"
   ],
   "author": "techwraith",
   "license": "MIT",
