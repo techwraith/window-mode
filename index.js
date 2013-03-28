@@ -13,6 +13,7 @@
       this.register({name: 'mobile',  width: 767, condition: "<="});
       this.register({name: 'tablet',  width: 979, condition: "<="});
       this.register({name: 'desktop', width: 980, condition: ">="});
+      return this;
     }
 
     /*
@@ -25,6 +26,7 @@
      */
     this.register = function (opts) {
       this.modes[opts.width] = {name: opts.name, condition: opts.condition};
+      return this;
     };
 
     /*
