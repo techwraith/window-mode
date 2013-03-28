@@ -13,6 +13,7 @@
     <![endif]-->
   </head>
   <body>
+    <div class="demo">Window mode: <span></span></div>
     <div class="wrapper">
       <header>
         <h1>Window-mode</h1>
@@ -66,6 +67,14 @@ var windowMode = require('window-mode');
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="javascripts/scale.fix.js"></script>
     <script src="https://raw.github.com/Techwraith/window-mode/master/index.js"></script>
-    
+    <script>
+      windowMode.init();
+      var demoText = document.querySelector('.demo span');
+      var updateDemoText = function () {
+        demoText.innerHTML = windowMode.check();
+      };
+      updateDemoText();
+      window.addEventListener('resize', updateDemoText);
+    </script>
   </body>
 </html>
