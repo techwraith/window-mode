@@ -1,6 +1,6 @@
 {
   "name": "window-mode",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A small utility to define and check different responsive \"modes\" for the current window - e.g. \"desktop\", \"tablet\", or \"mobile\"",
   "main": "index.js",
   "scripts": {
