@@ -12,6 +12,7 @@
     this.init = function () {
       this.register({name: 'mobile',  width: 767, condition: "<="});
       this.register({name: 'tablet',  width: 979, condition: "<="});
+      this.register({name: 'big', width: 1200, condition: ">="});
       this.register({name: 'desktop', width: 980, condition: ">="});
       return this;
     }
